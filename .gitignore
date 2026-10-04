@@ -1,0 +1,27 @@
+# C++ build files
+*.o
+*.out
+
+# Executables
+bootscope
+src/bootscope
+src/*_test
+
+# Linux kernel module build files
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+
+# Kernel module temporary files
+driver/.tmp_versions/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
